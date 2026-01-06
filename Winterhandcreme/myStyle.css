@@ -103,7 +103,7 @@ nav img{
 
 .heroteaser h1 {
     position: absolute;
-    bottom: 100px; /* Abstand vom unteren Rand */
+    bottom: 150px; /* Abstand vom unteren Rand */
     left: clamp(1rem, 6vw, 5rem); /* dein übliches Padding links */
     font-size: 3.4em;
     color: #FFFFFF;
@@ -115,7 +115,7 @@ nav img{
 .heroteaser button {
     position: absolute;
     left: clamp(1rem, 6vw, 5rem); /* gleiches Padding wie H1 */
-    bottom: calc(50px - 3.4em + 40px); /* H1 bottom + H1 Höhe + 20px Abstand */
+    bottom: calc(50px - 3.4em + 90px); /* H1 bottom + H1 Höhe + 20px Abstand */
     font-size: 1em;
     padding: 0.9em 1.8em;
     border-radius: 25px;
@@ -410,12 +410,13 @@ footer img{
     margin: 0;
     text-align: center;
     color: #fff;
-    font-size: 2.8em;
+    font-size: 2.6em;
     text-shadow: 0px 4px 4px rgba(0,0,0,0.25);
 }
 
 .heroteaser button {
-    bottom: 30px;                /* Button direkt unter H1 */
+    bottom: 30px;
+    width: 14.5em;                /* Button direkt unter H1 */
 }
 
       
