@@ -120,7 +120,7 @@ nav img{
     padding: 0.9em 1.8em;
     border-radius: 25px;
     border: none;
-    background-color: var(--green-color);
+    background-color: var(--pink-color);
     color: #fff;
     z-index: 0;
 }
@@ -559,3 +559,4 @@ button:hover::before {
     transform: translate(0, 0) !important; 
     opacity: 1; /* Sicherstellen, dass der Shine sichtbar ist */
 }
+
