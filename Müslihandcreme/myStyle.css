@@ -23,9 +23,9 @@ h2{
     font-family: 'Work Sans';
 }
 
-.red{
+/* .red{
     background-color: var(--pink-color);
-}
+} */
 
 header{
     width: 100%;
@@ -482,7 +482,7 @@ footer img{
 button {
     /* GRUND-STYLING (Deine Optik) */
     color: #FFFFFF;
-    /* background-color: var(--green-color); */
+    background-color: var(--green-color);
     font-size: 1em;
     padding: 0.9em 1.8em;
     border-radius: 25px;
@@ -559,4 +559,5 @@ button:hover::before {
     transform: translate(0, 0) !important; 
     opacity: 1; /* Sicherstellen, dass der Shine sichtbar ist */
 }
+
 
